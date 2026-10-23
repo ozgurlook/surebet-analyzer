@@ -1,0 +1,33 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      SUREBET_COOKIE_SECURE: "true"
+      FORWARDED_ALLOW_IPS: "*"
+    volumes:
+      - surebet_data:/data
+    expose:
+      - "8000"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      app:
+        condition: service_healthy
+    environment:
+      SUREBET_DOMAIN: ${SUREBET_DOMAIN:?Set SUREBET_DOMAIN in .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  surebet_data:
+  caddy_data:
+  caddy_config:

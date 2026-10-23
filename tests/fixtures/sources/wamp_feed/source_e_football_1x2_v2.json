@@ -1,0 +1,9 @@
+[
+  {"entityType": "Tournament", "id": "source_e-tournament", "sport": "football", "name": "Sample League"},
+  {"entityType": "Match", "id": "source_e-future", "tournamentID": "source_e-tournament", "sport": "football", "home": "North City", "away": "South United", "kickoff": "2026-08-25T19:00:00Z", "status": "prematch"},
+  {"entityType": "Market", "id": "source_e-future-ftr", "matchID": "source_e-future", "name": "Full Time Result", "status": "open"},
+  {"entityType": "BettingOffer", "id": "source_e-future-offer", "marketID": "source_e-future-ftr", "status": "open"},
+  {"entityType": "Outcome", "id": "source_e-future-home", "bettingOfferID": "source_e-future-offer", "label": "1", "odds": "1.87", "status": "open"},
+  {"entityType": "Outcome", "id": "source_e-future-draw", "bettingOfferID": "source_e-future-offer", "label": "X", "odds": "3.80", "status": "open"},
+  {"entityType": "Outcome", "id": "source_e-future-away", "bettingOfferID": "source_e-future-offer", "label": "2", "odds": "4.15", "status": "open"}
+]

@@ -1,0 +1,9 @@
+[
+  {"entityType": "Tournament", "id": "source_b-football", "sport": "football", "name": "Example Cup"},
+  {"entityType": "Match", "id": "source_b-future", "tournamentID": "source_b-football", "sport": "football", "home": "East Rovers", "away": "West Athletic", "kickoff": "2026-08-26T18:30:00Z", "status": "prematch"},
+  {"entityType": "Market", "id": "source_b-future-ftr", "matchID": "source_b-future", "name": "Full Time Result", "status": "open"},
+  {"entityType": "BettingOffer", "id": "source_b-future-offer", "marketID": "source_b-future-ftr", "status": "open"},
+  {"entityType": "Outcome", "id": "source_b-future-home", "bettingOfferID": "source_b-future-offer", "label": "1", "odds": "1.95", "status": "open"},
+  {"entityType": "Outcome", "id": "source_b-future-draw", "bettingOfferID": "source_b-future-offer", "label": "X", "odds": "3.50", "status": "open"},
+  {"entityType": "Outcome", "id": "source_b-future-away", "bettingOfferID": "source_b-future-offer", "label": "2", "odds": "4.10", "status": "open"}
+]

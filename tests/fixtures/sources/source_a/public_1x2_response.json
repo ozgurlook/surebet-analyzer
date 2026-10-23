@@ -1,0 +1,66 @@
+{
+  "games_data": {
+    "sport": {
+      "1": {
+        "id": 1,
+        "name": "Futbol",
+        "alias": "Soccer",
+        "region": {
+          "20": {
+            "id": 20,
+            "name": "Avrupa",
+            "alias": "Europe",
+            "competition": {
+              "18286520": {
+                "id": 18286520,
+                "name": "UEFA Avrupa Ligi",
+                "game": {
+                  "30549576": {
+                    "id": 30549576,
+                    "team1_name": "Bodo/Glimt",
+                    "team2_name": "NEC Nijmegen",
+                    "start_ts": 1787684400,
+                    "is_blocked": 0,
+                    "sport_alias": "Soccer"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "markets_data": {
+    "sport": {
+      "1": {
+        "region": {
+          "20": {
+            "competition": {
+              "18286520": {
+                "game": {
+                  "30549576": {
+                    "id": 30549576,
+                    "market": {
+                      "7001": {
+                        "id": 7001,
+                        "name": "Match Result",
+                        "type": "P1XP2",
+                        "display_key": "WINNER",
+                        "event": {
+                          "8001": {"id": 8001, "type_1": "W1", "price": 1.47},
+                          "8002": {"id": 8002, "type_1": "X", "price": 4.33},
+                          "8003": {"id": 8003, "type_1": "W2", "price": 4.6}
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

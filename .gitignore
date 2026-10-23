@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+.uv-cache/
+env/
+venv/
+.pytest_cache/
+.pytest-run/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+pytest-cache-files-*
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Storage
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.envexample
+
+# Workspace & Agent Artifacts
+.worktrees/
+.superpowers/
+.claude/
+artifacts/
+tests/test_tmp/
+.runtime/
+.playwright-mcp/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

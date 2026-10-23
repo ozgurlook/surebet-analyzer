@@ -1,0 +1,186 @@
+{
+  "version": "2026-10-23",
+  "competitions": [
+    {
+      "key": "tr-super-lig",
+      "region_id": "country:TR",
+      "display_name": "Türkiye Süper Lig",
+      "sources": {
+        "source_a": "7101",
+        "source_b": "910000000000000101",
+        "source_c": "910000000000000101",
+        "source_d": "8101",
+        "source_e": "910000000000000101",
+        "source_f": "910000000000000101"
+      }
+    },
+    {
+      "key": "en-premier-league",
+      "region_id": "country:GB",
+      "display_name": "İngiltere Premier Lig",
+      "sources": {
+        "source_a": "7102",
+        "source_b": "910000000000000102",
+        "source_c": "910000000000000102",
+        "source_d": "8102",
+        "source_e": "910000000000000102",
+        "source_f": "910000000000000102"
+      }
+    },
+    {
+      "key": "es-la-liga",
+      "region_id": "country:ES",
+      "display_name": "İspanya La Liga",
+      "sources": {
+        "source_a": "7103",
+        "source_b": "910000000000000103",
+        "source_c": "910000000000000103",
+        "source_d": "8103",
+        "source_e": "910000000000000103",
+        "source_f": "910000000000000103"
+      }
+    },
+    {
+      "key": "it-serie-a",
+      "region_id": "country:IT",
+      "display_name": "İtalya Serie A",
+      "sources": {
+        "source_a": "7104",
+        "source_b": "910000000000000104",
+        "source_c": "910000000000000104",
+        "source_d": "8104",
+        "source_e": "910000000000000104",
+        "source_f": "910000000000000104"
+      }
+    },
+    {
+      "key": "fr-ligue-1",
+      "region_id": "country:FR",
+      "display_name": "Fransa Lig 1",
+      "sources": {
+        "source_a": "7105",
+        "source_b": "910000000000000105",
+        "source_c": "910000000000000105",
+        "source_d": "8105",
+        "source_e": "910000000000000105",
+        "source_f": "910000000000000105"
+      }
+    },
+    {
+      "key": "de-bundesliga",
+      "region_id": "country:DE",
+      "display_name": "Almanya Bundesliga",
+      "sources": {
+        "source_a": "7106",
+        "source_b": "910000000000000106",
+        "source_c": "910000000000000106",
+        "source_d": "8106",
+        "source_e": "910000000000000106",
+        "source_f": "910000000000000106"
+      }
+    },
+    {
+      "key": "uefa-champions-league",
+      "region_id": "region:international",
+      "display_name": "UEFA Şampiyonlar Ligi",
+      "sources": {
+        "source_a": "7107",
+        "source_b": "910000000000000107",
+        "source_c": "910000000000000107",
+        "source_d": "8107",
+        "source_e": "910000000000000107",
+        "source_f": "910000000000000107"
+      },
+      "aliases": {
+        "source_b": [
+          "910000000000000117"
+        ],
+        "source_c": [
+          "910000000000000117"
+        ],
+        "source_e": [
+          "910000000000000117"
+        ],
+        "source_f": [
+          "910000000000000117"
+        ]
+      }
+    },
+    {
+      "key": "uefa-europa-league",
+      "region_id": "region:international",
+      "display_name": "UEFA Avrupa Ligi",
+      "sources": {
+        "source_a": "7108",
+        "source_b": "910000000000000108",
+        "source_c": "910000000000000108",
+        "source_d": "8108",
+        "source_e": "910000000000000108",
+        "source_f": "910000000000000108"
+      }
+    },
+    {
+      "key": "uefa-nations-league",
+      "region_id": "region:international",
+      "display_name": "UEFA Uluslar Ligi",
+      "sources": {
+        "source_a": "7109",
+        "source_b": "910000000000000109",
+        "source_c": "910000000000000109",
+        "source_d": "8109",
+        "source_e": "910000000000000109",
+        "source_f": "910000000000000109"
+      }
+    },
+    {
+      "key": "uefa-nations-league-b",
+      "region_id": "region:international",
+      "display_name": "UEFA Uluslar Ligi",
+      "sources": {
+        "source_d": "8119"
+      }
+    },
+    {
+      "key": "uefa-nations-league-c",
+      "region_id": "region:international",
+      "display_name": "UEFA Uluslar Ligi",
+      "sources": {
+        "source_d": "8129"
+      }
+    },
+    {
+      "key": "uefa-nations-league-d",
+      "region_id": "region:international",
+      "display_name": "UEFA Uluslar Ligi",
+      "sources": {
+        "source_d": "8139"
+      }
+    },
+    {
+      "key": "uefa-conference-league",
+      "region_id": "region:international",
+      "display_name": "UEFA Avrupa Konferans Ligi",
+      "sources": {
+        "source_a": "7110",
+        "source_b": "910000000000000110",
+        "source_c": "910000000000000110",
+        "source_d": "8110",
+        "source_e": "910000000000000110",
+        "source_f": "910000000000000110"
+      }
+    },
+    {
+      "key": "bask-euroleague",
+      "region_id": "region:international",
+      "display_name": "Euroleague",
+      "sources": {
+        "source_a": "7111",
+        "source_b": "910000000000000111",
+        "source_c": "910000000000000111",
+        "source_d": "8111",
+        "source_e": "910000000000000111",
+        "source_f": "910000000000000111"
+      }
+    }
+  ]
+}

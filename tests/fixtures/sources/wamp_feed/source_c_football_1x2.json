@@ -1,0 +1,28 @@
+[
+  {
+    "_type": "MATCH",
+    "id": "312173910072913920",
+    "sportId": "1",
+    "sportName": "Futbol",
+    "parentId": "sanitized-source_c-tournament",
+    "parentName": "UEFA Avrupa Konferans Ligi Elemeleri",
+    "categoryId": "sanitized-source_c-international",
+    "categoryName": "Uluslararası",
+    "homeParticipantId": "sanitized-home",
+    "awayParticipantId": "sanitized-away",
+    "homeParticipantName": "Iberia 1999",
+    "awayParticipantName": "Jagiellonia Białystok",
+    "startTime": 1787846400000,
+    "statusName": "Beklemede"
+  },
+  {"_type": "MARKET", "id": "sanitized-market", "eventId": "312173910072913920", "name": "Maç Sonucu, Normal Süre", "isAvailable": true, "isClosed": false},
+  {"_type": "MARKET_OUTCOME_RELATION", "id": "sanitized-home-relation", "marketId": "sanitized-market", "outcomeId": "sanitized-home-outcome"},
+  {"_type": "MARKET_OUTCOME_RELATION", "id": "sanitized-draw-relation", "marketId": "sanitized-market", "outcomeId": "sanitized-draw-outcome"},
+  {"_type": "MARKET_OUTCOME_RELATION", "id": "sanitized-away-relation", "marketId": "sanitized-market", "outcomeId": "sanitized-away-outcome"},
+  {"_type": "OUTCOME", "id": "sanitized-home-outcome", "eventId": "312173910072913920", "paramParticipantId1": "sanitized-home"},
+  {"_type": "OUTCOME", "id": "sanitized-draw-outcome", "eventId": "312173910072913920", "code": "#D"},
+  {"_type": "OUTCOME", "id": "sanitized-away-outcome", "eventId": "312173910072913920", "paramParticipantId1": "sanitized-away"},
+  {"_type": "BETTING_OFFER", "id": "sanitized-home-offer", "outcomeId": "sanitized-home-outcome", "odds": "3.30", "isAvailable": true, "isLive": false},
+  {"_type": "BETTING_OFFER", "id": "sanitized-draw-offer", "outcomeId": "sanitized-draw-outcome", "odds": "3.50", "isAvailable": true, "isLive": false},
+  {"_type": "BETTING_OFFER", "id": "sanitized-away-offer", "outcomeId": "sanitized-away-outcome", "odds": "2.02", "isAvailable": true, "isLive": false}
+]

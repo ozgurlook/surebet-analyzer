@@ -1,0 +1,1 @@
+"""Telegram opportunity notification subsystem."""

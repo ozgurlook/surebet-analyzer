@@ -1,0 +1,54 @@
+[project]
+name = "surebet-analyzer"
+version = "0.1.0"
+description = "Odds aggregation and arbitrage (surebet) analysis: CP-SAT stake solver, FastAPI, React PWA"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "argon2-cffi>=23.1,<24",
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<0.29",
+  "ortools>=9.14,<10",
+  "pydantic>=2.11,<3",
+  "python-multipart>=0.0.20,<1",
+  "typer>=0.16,<1",
+  "uvicorn>=0.34,<1",
+  "websockets>=15,<16",
+]
+
+[project.optional-dependencies]
+dev = [
+  "hypothesis>=6.138,<7",
+  "mypy>=1.17,<2",
+  "pytest>=8.4,<9",
+  "pytest-asyncio>=1.1,<2",
+  "respx>=0.22,<1",
+  "ruff>=0.12,<1",
+]
+
+[project.scripts]
+analyze-manual = "surebet.manual_cli:app"
+collect-source-a = "surebet.sources.source_a.cli:app"
+collect-source-d = "surebet.sources.source_d.cli:app"
+collect-wamp = "surebet.sources.wamp_feed.cli:app"
+surebet-web = "surebet.web.cli:app"
+preview-notifications = "surebet.notifications.preview:app"
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/surebet"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
